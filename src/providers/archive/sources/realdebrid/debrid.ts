@@ -359,7 +359,7 @@ export async function getUnrestrictedLink(
       }
 
       // Wait 2 seconds before checking again
-      // eslint-disable-next-line no-await-in-loop
+
       await new Promise((resolve) => {
         setTimeout(resolve, 2000);
       });

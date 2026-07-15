@@ -6,7 +6,7 @@ const PRIMENET_BASE = 'https://primenet.stream';
 
 async function primenetScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promise<SourcererOutput> {
   const { title, releaseYear } = ctx.media;
-  
+
   // 1. Search for the content on Primenet
   // Note: Primenet typically uses a search endpoint or slug-based URL
   const searchUrl = `${PRIMENET_BASE}/search?q=${encodeURIComponent(title)}`;
