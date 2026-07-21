@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { customAlphabet } from 'nanoid';
 
 import { flags } from '@/entrypoint/utils/targets';

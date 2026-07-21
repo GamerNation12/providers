@@ -1,3 +1,4 @@
+import { flags } from '@/entrypoint/utils/targets';
 import { SourcererOutput, makeSourcerer } from '@/providers/base';
 import { MovieScrapeContext, ShowScrapeContext } from '@/utils/context';
 
@@ -23,9 +24,9 @@ async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promis
 export const vidnestScraper = makeSourcerer({
   id: 'vidnest',
   name: 'Vidnest',
-  rank: 115,
-  flags: [],
-  disabled: true, // The streams cause the site to crash
+  rank: 2,
+  flags: [flags.CORS_ALLOWED],
+  disabled: true, // The streams cause the site to crash(i found this here too)
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
 });

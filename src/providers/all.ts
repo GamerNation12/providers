@@ -70,14 +70,18 @@ import { zunimeEmbeds } from './embeds/zunime';
 import { EightStreamScraper } from './sources/8stream';
 import { animeflvScraper } from './sources/animeflv';
 import { animetsuScraper } from './sources/animetsu';
+import { cattusScraper } from './sources/cattus';
 import { cinehdplusScraper } from './sources/cinehdplus-es';
 import { coitusScraper } from './sources/coitus';
 import { cuevana3Scraper } from './sources/cuevana3';
 import { debridScraper } from './sources/debrid';
 import { embedsuScraper } from './sources/embedsu';
 import { fullhdfilmizleScraper } from './sources/fullhdfilmizle';
+import { hardpastaScraper } from './sources/hardpasta';
 import { hdRezkaScraper } from './sources/hdrezka';
+import { icefyScraper } from './sources/icefy';
 import { lookmovieScraper } from './sources/lookmovie';
+import { mappleScraper } from './sources/mapple';
 import { movies4fScraper } from './sources/movies4f';
 import { myanimeScraper } from './sources/myanime';
 import { nunflixScraper } from './sources/nunflix';
@@ -94,9 +98,12 @@ import { vidifyScraper } from './sources/vidify';
 import { vidlinkScraper } from './sources/vidlink';
 import { vidnestScraper } from './sources/vidnest';
 import { vidrockScraper } from './sources/vidrock';
+import { vidzeeScraper } from './sources/vidzee';
+import { vixSrcScraper } from './sources/vixsrc';
 import { warezcdnScraper } from './sources/warezcdn';
 import { watchanimeworldScraper } from './sources/watchanimeworld';
 import { wecimaScraper } from './sources/wecima';
+import { witherScraper } from './sources/wither';
 import { zunimeScraper } from './sources/zunime';
 
 export function gatherAllSources(): Array<Sourcerer> {
@@ -143,7 +150,14 @@ export function gatherAllSources(): Array<Sourcerer> {
     fullhdfilmizleScraper,
     vidlinkScraper,
     vidrockScraper,
+    vidzeeScraper,
+    vixSrcScraper,
     watchanimeworldScraper,
+    mappleScraper,
+    icefyScraper,
+    witherScraper,
+    cattusScraper,
+    hardpastaScraper,
   ];
 }
 

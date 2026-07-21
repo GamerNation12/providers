@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 // --------
 // READ
 // There will be an ssl certificate error, you must use Node.js fetcher or browser fetcher.

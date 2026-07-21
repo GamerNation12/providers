@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import CryptoJS from 'crypto-js';
 
 import { flags } from '@/entrypoint/utils/targets';

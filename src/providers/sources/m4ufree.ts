@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 

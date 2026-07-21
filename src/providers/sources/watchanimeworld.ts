@@ -155,7 +155,7 @@ export const watchanimeworldScraper = makeSourcerer({
   id: 'watchanimeworld',
   name: 'WatchAnimeWorld',
   rank: 116,
-  disabled: true,
+  disabled: false,
   flags: [],
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
